@@ -1,5 +1,4 @@
 export default {
-  'red-dark': '#BF3B44',
   'gray-100': '#1B1D1E',
   'gray-200': '#333638',
   'gray-300': '#5C6265',
@@ -7,5 +6,11 @@ export default {
   'gray-500': '#DDDEDF',
   'gray-600': '#DDDEDF',
   'gray-700': '#FAFAFA',
+  'green-dark': '#639339',
+  'green-light': '#E5F0DB',
+  'green-mid': '#CBE4B4',
+  'red-dark': '#BF3B44',
+  'red-light': '#F4E6E7',
+  'red-mid': '#F3BABD',
   white: '#FFFFFF',
 }
