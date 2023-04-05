@@ -1,14 +1,20 @@
 import { Avatar, Container } from './styles'
 
-import Logo from '@assets/logo.svg'
 import kermit from '@assets/kermit.jpg'
+import Logo from '@assets/logo.svg'
+import React from 'react'
+import { ViewProps } from 'react-native'
 
-export const Header = () => {
+type Props = ViewProps
+
+export const Header: React.FC<Props> = ({ ...props }) => {
   return (
-    <Container>
+    <Container {...props}>
       <Logo />
 
       <Avatar source={kermit} alt="" />
     </Container>
   )
 }
+
+Header.displayName = 'Header'
