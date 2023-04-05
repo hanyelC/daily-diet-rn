@@ -10,19 +10,19 @@ type Props = {
 const getVariantStyles = (theme: DefaultTheme, variant: BoxVariants) => {
   const variantStyles: Record<BoxVariants, FlattenSimpleInterpolation> = {
     danger: css`
-      background-color: ${theme['red-light']};
-      border-color: ${theme['red-light']};
+      background-color: ${theme.colors['red-light']};
+      border-color: ${theme.colors['red-light']};
     `,
     primary: css`
-      background-color: ${theme['gray-600']};
-      border-color: ${theme['gray-600']};
+      background-color: ${theme.colors['gray-600']};
+      border-color: ${theme.colors['gray-600']};
     `,
     secondary: css`
-      border-color: ${theme['gray-500']};
+      border-color: ${theme.colors['gray-500']};
     `,
     success: css`
-      background-color: ${theme['green-light']};
-      border-color: ${theme['green-light']};
+      background-color: ${theme.colors['green-light']};
+      border-color: ${theme.colors['green-light']};
     `,
   }
 

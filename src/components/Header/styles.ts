@@ -11,6 +11,6 @@ export const Avatar = styled.Image`
     height: 40px;
     border-radius: 999px;
     border-width: 2px;
-    border-color: ${theme['gray-200']};
+    border-color: ${theme.colors['gray-200']};
   `}
 `
