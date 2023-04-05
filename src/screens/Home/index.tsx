@@ -1,15 +1,22 @@
 import { Container } from './styles'
 
-import { Header } from '@components'
+import { Box, Header, Heading, Text } from '@components'
 
 import React from 'react'
-import { Text } from 'react-native'
 
 export const Home: React.FC = () => {
   return (
     <Container>
       <Header />
-      <Text>Home</Text>
+      <Box variant="success">
+        <Heading size="lg">Heading LG</Heading>
+        <Heading size="md">Heading MD</Heading>
+        <Heading size="sm">Heading SM</Heading>
+        <Heading size="xs">Heading XS</Heading>
+        <Text size="md">Text MD</Text>
+        <Text size="sm">Text SM</Text>
+        <Text size="xs">Text XS</Text>
+      </Box>
     </Container>
   )
 }
